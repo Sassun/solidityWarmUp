@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyInheritance.sol": "MyInheritance_b"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyInheritance.sol": {
+			"keccak256": "0x041b8fda0dc503a1648476740db3ba6e3fd10f39181beb53d29bfe324bdf0184",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e39f622a4552ca99b2c49f5c8a993c3c8b03ca8aa95acccbca619bcbd088c217",
+				"dweb:/ipfs/QmXcof9RqufEwH9mABtP7cy4gtM41mcu8FSyDjmcKAwyj9"
+			]
+		}
+	},
+	"version": 1
+}

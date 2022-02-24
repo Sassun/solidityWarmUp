@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myFunc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyVariables.sol": "I"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyVariables.sol": {
+			"keccak256": "0xfbbbdfa035d016b93f80f70c1777456ba121c2fb4bcdc77ba6860d9819587a30",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7094ff8ef4d134702113d937f35b835e42a161e1767e393934771374dd2c9ab4",
+				"dweb:/ipfs/QmU8Xk5kq1SsYx5BVhqSpSgX9KpHEFq3q46kVdzwsgeGy7"
+			]
+		}
+	},
+	"version": 1
+}

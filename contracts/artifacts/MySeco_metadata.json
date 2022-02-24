@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyConstructor.sol": "MySeco"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyConstructor.sol": {
+			"keccak256": "0x7be0bf608a615e66262e1362c48c858377fe32f0b8481e619d98f024e0b89222",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c893ce7f1f24460849f0580bb35668986efcdba055413ed21effedd28914de1f",
+				"dweb:/ipfs/Qme5ks9MK5erRegz6HPZbjxGC3CxCpRk6QchrYcWYEsAQ6"
+			]
+		}
+	},
+	"version": 1
+}

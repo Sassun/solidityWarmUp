@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "example_1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "example_2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "example_3",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "example_4",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "example_5",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"example_1()": {
+					"notice": "Artithmetic Operators (+, -, *, /, %, ++, --)"
+				},
+				"example_2()": {
+					"notice": "Assignment Operators (=, +=, -=, *=, /=, %=)"
+				},
+				"example_3()": {
+					"notice": "Comparision Operators (==, !=, <, <=, >, >=)"
+				},
+				"example_4()": {
+					"notice": "Logical Operators (!, &&, ||)"
+				},
+				"example_5()": {
+					"notice": "Conditional Operators (?, A:B)"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyOperators.sol": "MyOperators"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyOperators.sol": {
+			"keccak256": "0xa3189e70389d58554a179f70a8ab55f644e8af0b031eb6fae9a2f3e24aef5f28",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://409d1a7f213b2cd943ca4cb1bf07620e1334a52bf3ceae403d8c75da980d4160",
+				"dweb:/ipfs/Qme6EsLE7qDTizjwdVWZE5a7M2uRD3KoX4C1xX74HMD9wR"
+			]
+		}
+	},
+	"version": 1
+}

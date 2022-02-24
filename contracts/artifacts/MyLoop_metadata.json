@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myLoop",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyLoop.sol": "MyLoop"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyLoop.sol": {
+			"keccak256": "0xa48f5bcfb4df9dd0155be9280e40f505363a9b3c30369e12e043ac8894a94613",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://231e16c435c1b5cc7655ee3baf642539b8372a6eb602e5efe2a33133c1c019ae",
+				"dweb:/ipfs/QmcfWN4cSoUxZfHvw5mG6yjx4PS1HYn3hJXCBZ5Qwxri9k"
+			]
+		}
+	},
+	"version": 1
+}

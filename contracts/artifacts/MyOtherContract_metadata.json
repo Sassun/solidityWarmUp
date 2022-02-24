@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyContractCalls.sol": "MyOtherContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyContractCalls.sol": {
+			"keccak256": "0x2bc7059f1ecda0f51a4fcf99712e6192f6ff3d39c37f04b199778332586d6ea1",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5b505df7461124be504c2ad0b8ed5ba4bd1066b820f163c1b64250f01114f085",
+				"dweb:/ipfs/QmfRdJ8B6MdPnjy4zJV3uqVHEc75cWzp1hNbkp3mgcHZ3g"
+			]
+		}
+	},
+	"version": 1
+}

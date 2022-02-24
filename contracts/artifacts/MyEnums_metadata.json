@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "makeSuperRare",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myRarity",
+				"outputs": [
+					{
+						"internalType": "enum MyEnums.Rarity",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyEnums.sol": "MyEnums"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyEnums.sol": {
+			"keccak256": "0x66dbf61bf11c351e2351d9350e21f4f71aa7a8f85c7bcc30063d5c3abda5c0e1",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://84993afacd6d8fcc53dfaa89bf1a6218cff85a0302bf3614e852cd9ca265fe53",
+				"dweb:/ipfs/Qmbraqc7bxCSgqTCgzq43M9cpXQDJE7mbxNBJiY4ztCfwy"
+			]
+		}
+	},
+	"version": 1
+}

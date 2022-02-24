@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_y",
+						"type": "uint256"
+					}
+				],
+				"name": "myPureFunc",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "xy",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_y",
+						"type": "uint256"
+					}
+				],
+				"name": "myPureRevertFunc",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "xy",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyErrorAndChecks.sol": "MyErrorAndChecks"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyErrorAndChecks.sol": {
+			"keccak256": "0x189ef2f78f0b05b1a6963789a659bf432c6142b3b09b67f73020ede846bd386f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ae4fa2e29a75b3f6c2ea77012f0f47f592f408b57ca8b834edb3b4488267cdfe",
+				"dweb:/ipfs/Qmck4hBmoPWmtYEqS9xLv5bLyfobeWfpDYURnRnFfbgPRo"
+			]
+		}
+	},
+	"version": 1
+}
